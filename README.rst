@@ -23,12 +23,12 @@ Tags Used & How They Are Used
     ``Name`` tag thus behaves ergonomically when used with our individual
     instances or when used with auto-scaling groups.
 
-``dns:fqdn = name.example.com`` and ``dns:fqdn:... = name.example.com``
+``dns:fqdn = name.example.com``, ``dns:fqdn:... = name.example.com``
     One or many DNS names can be assigned to an instance with the tag
     ``dns:fqdn`` and tags prefixed with ``dns:fqdn:`` (like: ``dns:fqdn:1``,
     ``dns:fqdn:2``). These names are used exactly as given.
 
-``dns:base = group.example.com`` and ``dns:base:... = group.example.com``
+``dns:base = group.example.com``, ``dns:base:... = group.example.com``
     When the tag ``dns:base`` or a tag prefixed with ``dns:base:`` (like:
     ``dns:base:1``, ``dns:base:2``) is specified, two records are created:
     a round-robin record like ``group.example.com`` which points to all
