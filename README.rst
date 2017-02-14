@@ -21,7 +21,7 @@ Tags Used & How They Are Used
     base name: a record is created for ``<instance-id>.a.b.c`` pointing only at
     the instance, and a round-robin record is created at ``a.b.c``. The
     ``Name`` tag thus behaves ergonomically when used with either individual
-    instances or when used with auto-scaling groups.
+    instances or auto-scaling groups.
 
 ``dns:fqdn = name.example.com``, ``dns:fqdn:... = name.example.com``
     One or many DNS names can be assigned to an instance with the tag
