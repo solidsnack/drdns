@@ -20,7 +20,7 @@ Tags Used & How They Are Used
     ``<instance-id>.a.b.c``, then it is treated as though it were just the
     base name: a record is created for ``<instance-id>.a.b.c`` pointing only at
     the instance, and a round-robin record is created at ``a.b.c``. The
-    ``Name`` tag thus behaves ergonomically when used with our individual
+    ``Name`` tag thus behaves ergonomically when used with either individual
     instances or when used with auto-scaling groups.
 
 ``dns:fqdn = name.example.com``, ``dns:fqdn:... = name.example.com``
